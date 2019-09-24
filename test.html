@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test	</title>
+</head>
+<body>
+  <form>
+  	<h1 style="text-align: center;">Formulaire d'inscription</h1>
+  	<table>
+  		<tr><td><label for="pseudo">Pseudo :</label></td><td><input type="text" name="pseudo" id="pseudo"> <span id="aidePseudo"></span></td></tr>
+  		<tr><td><label for="mdp">Mot de passe :</label></td><td><input type="password" name="mdp" id="mdp"><span id="aideMdp"></span></td></tr>
+  		<tr><td><label for="courriel">Courriel :</label></td><td><input type="text" name="courriel" id="courriel" placeholder="utilisateur@domaine.fr"><span id="aideCourriel"></span></td></tr>
+  		<tr><td><input type="checkbox" name="confirmation" id="confirmation"> <label for="confirmation">M'envoyer un courriel de confirmation </label><br/></td></tr>		
+  		<tr><td><input type="radio" name="abonnement" id="abonnementNewsPromo" value="abonnementNewsPromo"><label for="abonnementNewsPromo"> M'abonner à la newsletter et aux promotions </label>
+  		</td></tr>
+  		<tr><td><input type="radio" name="abonnement" id="abonnementNews" value="abonnementNews"><label for="abonnementNews"> M'abonner uniquement à la newsletter </label>
+  		</td></tr>	
+  		<tr><td><input type="radio" name="abonnement" id="aborien" value="aborien"><label for="aborien"> Ne pas abonner </label>
+  		</td></tr>	
+  		<tr><td><label for ="nationalite">Nationalité :</label> <select id="nationalite">
+  																	<option value="FR">Francaise</option>
+  															  		<option value="LUX">Luxembourgeoise</option>
+  															  		<option value="ANG">Anglaise</option>
+  														      		<option value="SE" selected>Sénégalaise</option>
+  														        </select>
+        <br/><br/></td></tr>
+        <tr><td><input type="submit"  value="Envoyer"> <input type="reset"  value="Annuler"></td></tr>
+
+  	</table>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
